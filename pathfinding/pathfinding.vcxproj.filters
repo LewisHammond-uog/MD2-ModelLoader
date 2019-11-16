@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pathfinding">
+      <UniqueIdentifier>{c4699421-df26-4ded-9df6-40b1514e75d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pathfinding">
+      <UniqueIdentifier>{8dc285de-2c3e-457b-8f1f-53dfda859fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model/Texture Loading">
+      <UniqueIdentifier>{817eccab-afb7-4ed8-8251-bb904ca0f035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model/Texture Loading">
+      <UniqueIdentifier>{4721dd99-d54c-4600-ad76-852f0f96c5a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\PathfindingApp.h">
+      <Filter>Header Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathfindingObject.h">
+      <Filter>Header Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maze.h">
+      <Filter>Header Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager.h">
+      <Filter>Header Files\Model/Texture Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\md2_loader.h">
+      <Filter>Header Files\Model/Texture Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\md2_Normals.h">
+      <Filter>Header Files\Model/Texture Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcx_loader.h">
+      <Filter>Header Files\Model/Texture Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture_manager.h">
+      <Filter>Header Files\Model/Texture Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture.h">
+      <Filter>Header Files\Model/Texture Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MD2Pathfinder.h">
+      <Filter>Header Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LocationPicker.h">
+      <Filter>Header Files\Pathfinding</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathfindingObject.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathfindingApp.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maze.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md2_loader.cpp">
+      <Filter>Source Files\Model/Texture Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcx_loader.cpp">
+      <Filter>Source Files\Model/Texture Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md2_Normals.cpp">
+      <Filter>Source Files\Model/Texture Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>Source Files\Model/Texture Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture_manager.cpp">
+      <Filter>Source Files\Model/Texture Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md2_opengl_boilerplate.cpp">
+      <Filter>Source Files\Model/Texture Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MD2Pathfinder.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LocationPicker.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

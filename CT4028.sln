@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "framework", "framework\framework.vcxproj", "{473F1220-17D6-4B43-BF91-9F839980F0A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pathfinding", "pathfinding\pathfinding.vcxproj", "{42E05BC5-7780-46C1-94CE-F91060F441D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{473F1220-17D6-4B43-BF91-9F839980F0A3} = {473F1220-17D6-4B43-BF91-9F839980F0A3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{473F1220-17D6-4B43-BF91-9F839980F0A3}.Debug|x64.ActiveCfg = Debug|x64
+		{473F1220-17D6-4B43-BF91-9F839980F0A3}.Debug|x64.Build.0 = Debug|x64
+		{473F1220-17D6-4B43-BF91-9F839980F0A3}.Release|x64.ActiveCfg = Release|x64
+		{473F1220-17D6-4B43-BF91-9F839980F0A3}.Release|x64.Build.0 = Release|x64
+		{42E05BC5-7780-46C1-94CE-F91060F441D0}.Debug|x64.ActiveCfg = Debug|x64
+		{42E05BC5-7780-46C1-94CE-F91060F441D0}.Debug|x64.Build.0 = Debug|x64
+		{42E05BC5-7780-46C1-94CE-F91060F441D0}.Release|x64.ActiveCfg = Release|x64
+		{42E05BC5-7780-46C1-94CE-F91060F441D0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {806AF882-8B2E-45CB-B2BA-7DC8124EF87A}
+	EndGlobalSection
+EndGlobal
